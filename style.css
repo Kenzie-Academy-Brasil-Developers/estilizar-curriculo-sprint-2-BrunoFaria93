@@ -6,11 +6,13 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pr
 	padding: 0;
 	vertical-align: baseline;
 }
-
+html{
+	background-color: white;
+}
 html, body {
 	font-size: 16px;
+	color: #181818;
 	font-family: 'Lato', 'Helvetica', 'Arial', sans-serif;
-	background-color: #f3f3f3;
 }
 
 .clear {
@@ -124,8 +126,8 @@ section:last-child {
 	font-size: 1.5em;
 	margin-bottom: -2px;
 }
-
 .subDetails {
+	color:#181818;
 	font-size: 0.8em;
 	font-style: italic;
 	margin-bottom: 3px;
@@ -152,8 +154,8 @@ section:last-child {
 	margin-right: auto;
 	max-width: 800px;
 	box-shadow: 1px 1px 5px grey;
-	background-color: white;
+	background-color: #f3f3f3;
 }
 a{
-	color: inherit;
+	color: #181818;
 }
